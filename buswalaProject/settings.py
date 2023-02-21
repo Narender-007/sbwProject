@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'buswalaProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'vkdb220822',
-        'USER': 'vkdevdbu',
-        'PASSWORD': 'vkd3vdbU!',
-        'HOST': '128.199.2.1',
+        'NAME': 'sbwdb',
+        'USER': 'postgres',
+        'PASSWORD': '12345678',
+        'HOST': 'postgres-2.crz2cinrx0xt.ap-northeast-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
